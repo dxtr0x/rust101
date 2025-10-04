@@ -37,7 +37,7 @@ fn c2f(corf : i8){
 }
 
 
-fn Tempurature(){
+fn tempurature(){
     loop {
         println!("\x1b[41m =============== Tempurate Convertor ============== \x1b[0m");
         let num : i8 = choice();
@@ -47,4 +47,8 @@ fn Tempurature(){
             print!("\r\x1b[2K\x1b[A");
         }
     }
+}
+
+fn main(){
+    tempurature();
 }
