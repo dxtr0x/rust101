@@ -1,0 +1,8 @@
+[package]
+name = "todo_list"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crud = { path = "./crud" , version = "^0.1"}
+rusqlite = { version = "0.37.0", features = ["bundled"] }
