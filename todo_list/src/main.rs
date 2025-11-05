@@ -5,4 +5,5 @@ fn main(){
             Menu::menu_note_selection(&db);
     }
     println!("\n👋👋 See ya !! 👋👋\n");
+    return ;
 }
